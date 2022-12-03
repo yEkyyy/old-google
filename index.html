@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .search-division {
+            background-color: #EEEEEE;
+        }
+
+        .links {
+            margin-top: 3px;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            gap: 3px;
+            
+        }
+
+        
+        .box1 {
+            background-color: #7EE5DA;
+            flex-grow: 2.5;
+            padding: 10px;
+        }
+
+        .box2 {
+            background-color: #70CCC2;
+            flex-grow: 1.1;
+            padding: 10px;
+        }
+
+        .box3 {
+            background-color: #62B3AA;
+            flex-grow: 2.2;
+            
+        }
+
+        .footer {
+            margin-top: 10px;
+        }
+
+        .box3 button {
+            margin-right: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="google.jpg" alt="">
+        </div>
+
+        <div class="search-division">
+            <span>Search the web using Google!</span>
+            <form action="">
+                <input type="text" name="search" id="search" value size="40">
+            </form>
+            <button class="btn">Google Search</button>
+            <button class="btn">I'm feeling lucky</button>
+        </div>
+
+        <div class="links">
+            <div class="box1">
+                <span>Special Searches</span><br>
+                <a href="#">Stanford Search</a><br>
+                <a href="#">Linux Search</a><br>
+            </div>
+            <div class="box2">
+                <a href="#">Help!</a><br>
+                <a href="#">About Google!</a><br>
+                <a href="#">Company Info</a><br>
+                <a href="#">Google! Logos</a><br>
+            </div>
+            <div class="box3">
+                <span>Get Google!</span><br>
+                <span>updates monthly:</span><br>
+                <form action="">
+                    <input type="text" name="email" id="email" placeholder="your e-mail">
+                </form>
+                <button>Subscribe</button>
+                <a href="#">Archive</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <span>Copyright &copy;1998 Google Inc.</span>
+        </footer>
+    </div>
+</body>
+</html>
